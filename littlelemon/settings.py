@@ -81,11 +81,11 @@ WSGI_APPLICATION = 'littlelemon.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'LittleLemon',
-        'HOST': '127.0.6.1', 
+        'NAME': 'littleLemon',
+        'HOST': '127.0.0.1', 
         'PORT': '3306', 
-        'USER': 'admindjango', 
-        'PASSWORD': 'employee@123!', 
+        'USER': 'root', 
+        'PASSWORD': 'root@123', 
     }
 }
  
